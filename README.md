@@ -7,7 +7,9 @@
 
 If you've ever watched a long-running Symfony console command crawl and
 wondered, "Is this thing leaking memory? Am I hammering the database with N+1
-queries right now?" — this bundle is for you.
+queries right now?" — this bundle is for you.  
+
+Read more about it on Medium at https://medium.com/@rcsofttech85/from-personal-tool-to-open-source-console-profiler-bundle-12d0bac0f758.
 
 The standard Symfony Profiler is amazing for HTTP requests, but it doesn't help
 you much when a queue worker is eating up RAM in the background. The Console
